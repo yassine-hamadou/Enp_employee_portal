@@ -176,7 +176,7 @@ const chartOptions = (chartColor: string, chartHeight: string): ApexOptions => {
       },
       y: {
         formatter: function (val) {
-          return '$' + val + ' thousands'
+          return 'GHS' + val + ' thousands'
         },
       },
     },

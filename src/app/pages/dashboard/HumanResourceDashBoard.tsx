@@ -98,11 +98,11 @@ const dashboardColumns: any = [
 const EmpDashboardPage: FC = () => (
 
 
-  
+
   <>
     {/* begin::Row */}
     <div className='row gy-5 g-xl-8 mb-7'>
-      
+
       <div className='col-xxl-6'>
       <HRChart className='mb-xl-8'
           chartColor='primary'
@@ -134,6 +134,7 @@ const EmpDashboardPage: FC = () => (
     {/* end::Row */}
   </>
 )
+
 
 const EmpDashboardWrapper: FC = () => {
   const intl = useIntl()

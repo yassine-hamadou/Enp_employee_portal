@@ -1,7 +1,5 @@
 {
-    "name": "demo1",
-    "version": "8.1.0",
-    "private": true,
+    "name": "employee-portal",
     "homepage": "/enp-employee-portal/",
     "dependencies": {
         "@devexpress/analytics-core": "^22.1.5",

@@ -44,7 +44,7 @@ const MixedWidget3: React.FC<Props> = ({className, chartColor, chartHeight}) => 
     <div className={`card ${className}`}>
       {/* begin::Header  */}
       <div className={`card-header border-0 bg-${chartColor} py-5`}>
-        <h3 className='card-title fw-bold text-white'>Sales Progress</h3>
+        <h3 className='card-title fw-bold text-white'>HR ITEMS</h3>
 
         <div className='card-toolbar'>
           {/* begin::Menu  */}
@@ -83,14 +83,14 @@ const MixedWidget3: React.FC<Props> = ({className, chartColor, chartHeight}) => 
             {/* begin::Col  */}
             <div className='col mx-5'>
               <div className='fs-6 text-gray-400'>Avarage Sale</div>
-              <div className='fs-2 fw-bold text-gray-800'>$650</div>
+              <div className='fs-2 fw-bold text-gray-800'>GHS65,000</div>
             </div>
             {/* end::Col  */}
 
             {/* begin::Col  */}
             <div className='col mx-5'>
               <div className='fs-6 text-gray-400'>Comissions</div>
-              <div className='fs-2 fw-bold text-gray-800'>$29,500</div>
+              <div className='fs-2 fw-bold text-gray-800'>GHS2,950</div>
             </div>
             {/* end::Col  */}
           </div>
@@ -101,14 +101,14 @@ const MixedWidget3: React.FC<Props> = ({className, chartColor, chartHeight}) => 
             {/* begin::Col  */}
             <div className='col mx-5'>
               <div className='fs-6 text-gray-400'>Revenue</div>
-              <div className='fs-2 fw-bold text-gray-800'>$55,000</div>
+              <div className='fs-2 fw-bold text-gray-800'>GHS55,000</div>
             </div>
             {/* end::Col  */}
 
             {/* begin::Col  */}
             <div className='col mx-5'>
               <div className='fs-6 text-gray-400'>Expenses</div>
-              <div className='fs-2 fw-bold text-gray-800'>$1,130,600</div>
+              <div className='fs-2 fw-bold text-gray-800'>GHS11,300</div>
             </div>
             {/* end::Col  */}
           </div>
@@ -221,7 +221,7 @@ const chartOptions = (chartHeight: string): ApexOptions => {
       },
       y: {
         formatter: function (val) {
-          return '$' + val + ' thousands'
+          return 'GHS' + val + ' thousands'
         },
       },
       marker: {

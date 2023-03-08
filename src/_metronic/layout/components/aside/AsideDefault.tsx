@@ -38,10 +38,10 @@ const AsideDefault: FC = () => {
         {aside.theme === 'dark' && (
           <Link to='/hr-dashboard'>
             <img
-                alt='ENP Employee Logo'
-                className='h-55px logo'
-                src={toAbsoluteUrl('/media/logos/img.png')}
-              />
+              alt='ENP Employee Logo'
+              className='h-55px logo'
+              src={toAbsoluteUrl('/media/logos/img.png')}
+            />
                {/*<h3 style={{color: "#009EF7"}}>Employee Portal</h3>*/}
           </Link>
         )}

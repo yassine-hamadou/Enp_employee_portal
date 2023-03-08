@@ -46,7 +46,7 @@ const MixedWidget11: React.FC<Props> = ({className, chartColor, chartHeight}) =>
           <div className='me-2'>
             <span className='fw-bold text-gray-800 d-block fs-3'>Monthly Leaves</span>
 
-            <span className='text-gray-400 fw-semibold'>Oct 8 - Oct 26 2021</span>
+            <span className='text-gray-400 fw-semibold'>Feb 8 - Sep 26 2022</span>
           </div>
 
           {/*<div className={`fw-bold fs-3 text-${chartColor}`}>$15,300</div>*/}

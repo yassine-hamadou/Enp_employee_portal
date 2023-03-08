@@ -103,10 +103,10 @@ const PrivateRoutes = () => {
         {/* Redirect to Dashboard after success login/registartion */}
         <Route path='auth/*' element={<Navigate to='/home' />} />
         {/* Pages */}
-        <Route path='dashboard' element={<DashboardWrapper />} />
+        <Route path='appraisal' element={<DashboardWrapper />} />
         {/* <Route path='dashboard' element={<DashboardWrapper />} /> */}
         {/*<Route path='payroll-dashboard' element={<PayrollDashboardWrapper />} />*/}
-        <Route path='home' element={<EmpDashboardWrapper />} />
+        <Route path='home' element={<DashboardWrapper />} />
    
 
         {/* Employee  */}

@@ -18,44 +18,38 @@ export function AsideMenuMain() {
             fontIcon='bi-app-indicator'
         />
         <AsideMenuItem
-            to='disciplinary'
-            icon='/media/icons/duotune/art/art008.svg'
+            to='#disciplinary'
+            icon='/media/icons/duotune/arrows/arr055.svg'
             title='Disciplinary'
             fontIcon='bi-app-indicator'
         />
         <AsideMenuItem
-            to='leave'
-            icon='/media/icons/duotune/art/art008.svg'
+            to='#leave'
+            icon='/media/icons/duotune/arrows/arr043.svg'
             title='Leave'
             fontIcon='bi-app-indicator'
         />
         <AsideMenuItem
-            to='medical'
+            to='#medical'
             icon='/media/icons/duotune/art/art008.svg'
             title='Medical'
             fontIcon='bi-app-indicator'
         />
         <AsideMenuItem
-            to='Notifications'
-            icon='/media/icons/duotune/art/art008.svg'
+            to='#Notifications'
+            icon='/media/icons/duotune/communication/com003.svg'
             title='Notifications'
             fontIcon='bi-app-indicator'
         />
         <AsideMenuItem
-            to='Notifications'
-            icon='/media/icons/duotune/art/art008.svg'
-            title='Notifications'
-            fontIcon='bi-app-indicator'
-        />
-        <AsideMenuItem
-            to='Timesheet'
+            to='#Timesheet'
             icon='/media/icons/duotune/art/art008.svg'
             title='Timesheet'
             fontIcon='bi-app-indicator'
         />
         <AsideMenuItem
-            to='Settings'
-            icon='/media/icons/duotune/art/art008.svg'
+            to='#Settings'
+            icon='/media/icons/duotune/general/gen019.svg'
             title='Settings'
             fontIcon='bi-app-indicator'
         />
